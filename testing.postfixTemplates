@@ -1,3 +1,6 @@
 ## Templates for assertj ##
 .at : assertj-core assertThat
     ANY               [org.assertj.core.api.Assertions]     →  org.assertj.core.api.Assertions.assertThat($expr$)   [USE_STATIC_IMPORTS]
+
+.ffffftest : assertj-core assertThat
+    ANY               [org.assertj.core.api.Assertions]     →  org.assertj.core.api.Assertions.assertThat($expr$)   [USE_STATIC_IMPORTS]
